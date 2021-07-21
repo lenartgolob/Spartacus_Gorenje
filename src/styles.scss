@@ -2,3 +2,14 @@
 
 $styleVersion: 3.4;
 @import '~@spartacus/styles/index';
+
+footer {
+    --cx-color-dark: #5A6870 !important;
+}
+
+.cx-notice {
+    color: #9DA6AB !important;
+    font-size: 11.5px !important;
+    padding-bottom: 10px !important;
+    background-color: #5A6870 !important;
+}
