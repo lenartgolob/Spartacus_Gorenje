@@ -3,8 +3,10 @@
 $styleVersion: 3.4;
 @import '~@spartacus/styles/index';
 
+// Footer
 footer {
     --cx-color-dark: #5A6870 !important;
+    --cx-color-inverse: white !important;
 }
 
 .cx-notice {
@@ -12,4 +14,55 @@ footer {
     font-size: 11.5px !important;
     padding-bottom: 10px !important;
     background-color: #5A6870 !important;
+}
+
+// Mini cart background color
+cx-mini-cart cx-icon {
+    color: #F0F0F0 !important;
+}
+
+cx-mini-cart .count {
+    color: #F0F0F0 !important;
+}
+
+// Logo size
+header cx-media {
+    width: 200% !important;
+}
+
+// Header
+header {
+    --cx-color-dark: white !important;
+    --cx-color-secondary: #F0F0F0 !important;
+
+}
+
+.carousel-panel {
+    margin-bottom: 50px;
+}
+
+// cx-hamburger-menu button {
+//     background-color: red !important;
+// }
+
+// .cx-hamburger {
+//     color: red !important;
+//     background-color: red !important;
+// }
+
+
+:root {
+    // --cx-color-background: red !important;
+    //--cx-color-text: red !important;
+    --cx-color-inverse: #5A6870 !important;
+    //--cx-color-transparent: transparent !important;
+    --cx-color-primary: #00B9AD !important;
+    //--cx-color-secondary: #F0F0F0 !important;
+    //--cx-color-success: red !important;
+    // --cx-color-info: red !important;
+    // --cx-color-warning: red !important;
+    // --cx-color-danger: red !important;
+    // --cx-color-light: blue !important;
+    // --cx-color-visual-focus: blue !important;
+    // --cx-color-background-focus: blue !important;
 }
