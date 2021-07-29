@@ -2,12 +2,151 @@
     background-color: #00B9AD !important;
     display: flex;
     padding: 15px;
+    justify-content: space-between;
 }
 
 .container-left {
     display: flex;
+    align-items: center;
+    margin-left: 10%;
+    .subscribe:hover {
+        border-color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
 }
 
-.container-left p {
-    margin-bottom: 5px;
+.container-right {
+    display: flex;
+    align-items: center;
+    margin-right: 22%;
+}
+
+.newsletter {
+    display: flex;
+}
+
+.subscribe {
+    padding: 5px;
+    margin-left: 60px;
+    background-color: white;
+    color: #00B9AD;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 3px solid #DDE4E8;
+    img {
+        width: 20px;
+    }
+    p {
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-right: 10px;
+        text-transform: uppercase;
+    }
+}
+
+.socials {
+    display: flex;
+    img {
+        width: 23px;
+    }
+
+    div {
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 7px;
+        border-radius: 50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        border: 2px solid #80DCD6;
+    }
+
+    div:hover {
+        border-color: white;
+    }
+}
+
+.right-text {
+    p {
+        margin-bottom: 0;
+        margin-right: 60px;
+    }
+}
+
+.left-text p {
+    margin-bottom: 0;
+}
+
+.left-text-upper {
+    font-weight: 900;
+    font-size: 120%;
+}
+
+.paperplane-icon img {
+    width: 45px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .container-left {
+        margin-left: 5%;
+    }
+    .container-right {
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .right-text {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .container-left {
+        margin-left: 2%;
+    }
+    .container-right {
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .subscribe {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .news-footer {
+        display: block;
+    }
+
+    .container-left {
+        display: block;
+    }
+
+    .socials {
+        margin: 0 auto;
+    }
+
+    .newsletter {
+        justify-content: center;
+    }
+
+    .subscribe {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+    .container-right {
+        margin-right: 0;
+    }
+
+    .container-left {
+        margin-left: 0;
+    }
 }

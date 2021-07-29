@@ -7,6 +7,7 @@ $styleVersion: 3.4;
 footer {
     --cx-color-dark: #5A6870 !important;
     --cx-color-inverse: white !important;
+    display: block !important;
 }
 
 .cx-notice {
@@ -65,4 +66,12 @@ header {
     // --cx-color-light: blue !important;
     // --cx-color-visual-focus: blue !important;
     // --cx-color-background-focus: blue !important;
+}
+
+.slides {
+    //max-height: 100px !important;
+}
+
+cx-page-layout {
+    // display: inline !important;
 }
