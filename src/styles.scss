@@ -75,3 +75,117 @@ header {
 cx-page-layout {
     // display: inline !important;
 }
+
+// Categories pages landing text
+.ContentPage1Template {
+ .BottomHeaderSlot {
+    cx-paragraph {
+        text-align: center;
+        font-size: 250%;
+        font-weight: 900;
+        color: #5A6870;
+    }
+ }
+
+ a:hover {
+     text-decoration: none !important;
+ }
+}
+
+// News Header
+.LandingPage2Template {
+    .Section1 {
+        cx-paragraph {
+            color: #566770;
+            text-transform: uppercase;
+            p {
+                font-size: 110%;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+
+            h2 {
+                font-size: 150%;
+                font-weight: 700;
+            }
+
+            :hover {
+                color: #00B9AD;
+            }
+        }
+    }
+
+    // .BottomHeaderSlot {
+    //     height: 1000px;
+
+    //     img {
+    //         height: 1000px !important;
+
+    //     }
+        
+    //     cx-banner-carousel .inline-navigation .carousel-panel .item {
+    //         max-height: none !important;
+    //         height: 100% !important;
+    //     }
+    // }
+}
+
+// Podpisi Section2A
+.Section2A {
+    cx-paragraph {
+        padding-right: 50px;
+        p {
+            p {
+                color: #9FA7AA;
+                font-size: 80%;
+            }
+        }
+
+        h2 {
+            color: #566770;
+            text-transform: uppercase;
+            font-size: 115%;
+            font-weight: 700;
+        }
+        h2:hover {
+            color: #00B9AD;
+        }
+    }
+
+    cx-banner {
+        width: 284.5px;
+        height: 217px;
+    }
+}
+
+// Podpisi Section2B
+.Section2B {
+    cx-paragraph {
+        margin-top: 0;
+        padding-right: 50px;
+        height: 116px;
+        p {
+            p {
+                color: #9FA7AA;
+                font-size: 80%;
+            }
+        }
+
+        h2 {
+            color: #566770;
+            text-transform: uppercase;
+            font-size: 115%;
+            font-weight: 700;
+        }
+        h2:hover {
+            color: #00B9AD;
+        }
+    }
+
+    cx-banner {
+        width: 284.5px;
+        height: 217px;
+        margin-bottom: 0;
+    }
+}
+

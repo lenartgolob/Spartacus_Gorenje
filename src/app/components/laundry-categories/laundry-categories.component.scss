@@ -6,10 +6,23 @@
 .container {
     display: flex;
     justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+
+    a:hover {
+        p {
+            color: #00B9AD;
+        }
+    }
 }
 
 .inner-container {
     text-align: center;
     margin-left: 15px;
     margin-right: 15px;
+
+    p {
+        color: #566770;
+        font-weight: 600;
+    }
 }
