@@ -1,0 +1,27 @@
+<p class="products-categories-carousel-header">Gorenje products</p>
+<div class="container">
+    <div class="inner">
+        <div *ngIf="divLast" class="icon" (click)="previousDivFunction()"><</div>
+        <div *ngIf="divFirst" class="floatLeft first">
+            <img  src="/assets/images/cookingBanner.jpg"/>
+            <p>Cooking</p>
+        </div>
+        <div class="floatLeft">
+            <img  src="/assets/images/coolingBanner.jpg"/>
+            <p>Cooling</p>
+        </div>
+        <div class="floatLeft">
+            <img  src="/assets/images/laundryBanner.jpg"/>
+            <p>Dishwashers</p>
+        </div>
+        <div class="floatLeft">
+            <img  src="/assets/images/dishwashersBanner.jpg"/>
+            <p>Laundry</p>
+        </div>
+        <div *ngIf="divLast" class="floatLeft last">
+            <img  src="/assets/images/homeBanner.jpg"/>
+            <p>Home</p>
+        </div>
+        <div *ngIf="divFirst" class="icon" (click)="nextDivFunction()">></div>
+    </div>
+ </div>

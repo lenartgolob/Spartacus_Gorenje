@@ -12,6 +12,7 @@ import { HomeCategoriesModule } from "./components/home-categories/home-categori
 import { LaundryCategoriesModule } from "./components/laundry-categories/laundry-categories.module";
 import { NewsFooterModule } from "./components/news-footer/news-footer.module";
 import { NewsHeaderModule } from "./components/news-header/news-header.module";
+import { ProductsCategoriesCarouselModule } from "./components/products-categories-carousel/products-categories-carousel.module";
 import { SpartacusModule } from './spartacus/spartacus.module';
 
 @NgModule({
@@ -33,6 +34,7 @@ import { SpartacusModule } from './spartacus/spartacus.module';
     HomeCategoriesModule,
     NewsFooterModule,
     NewsHeaderModule,
+    ProductsCategoriesCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
