@@ -1,21 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CookingCategoriesComponent } from './cooking-categories.component';
+import { ContactInfoComponent } from './contact-info.component';
 import { CmsConfig, ConfigModule } from '@spartacus/core';
 
 
 
 @NgModule({
-  declarations: [CookingCategoriesComponent],
+  declarations: [ContactInfoComponent],
   imports: [
     CommonModule,
     ConfigModule.withConfig({
       cmsComponents: {
-        CookingCategoriesComponent: {
-          component: CookingCategoriesComponent
+        ContactInfoComponent: {
+          component: ContactInfoComponent
         }
       }
     } as CmsConfig)
   ]
 })
-export class CookingCategoriesModule { }
+export class ContactInfoModule { }

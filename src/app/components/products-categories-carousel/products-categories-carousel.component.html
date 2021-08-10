@@ -1,27 +1,81 @@
 <p class="products-categories-carousel-header">Gorenje products</p>
 <div class="container">
     <div class="inner">
-        <div *ngIf="divLast" class="icon" (click)="previousDivFunction()"><</div>
+        <div *ngIf="divLast" class="icon" (click)="previousDivFunction()">
+            <img  src="/assets/images/previous1.png"/>
+        </div>
+        <div *ngIf="divFirst" class="icon">
+            <img  src="/assets/images/previous2.png"/>
+        </div>
         <div *ngIf="divFirst" class="floatLeft first">
-            <img  src="/assets/images/cookingBanner.jpg"/>
-            <p>Cooking</p>
+            <img class="images" src="/assets/images/cookingBanner.jpg"/>
+            <div class="subcategories">
+                <a href="/electronics-spa/c/MDA0202"><p>Ovens</p></a>
+                <a href="/electronics-spa/c/MDA03"><p>Hotplates</p></a>
+                <a href="/electronics-spa/c/MDA01"><p>Stoves</p></a>
+                <a href="/electronics-spa/c/MDA0207"><p>Microwaves</p></a>
+                <a href="/electronics-spa/c/MDA09"><p>Hoods</p></a>
+            </div>
+            <div class="bottom-header">
+                <p>Cooking</p>
+                <img class="gray" src="/assets/images/next3.png"/>
+                <img class="primary" src="/assets/images/next4.png"/>
+            </div>
         </div>
         <div class="floatLeft">
-            <img  src="/assets/images/coolingBanner.jpg"/>
-            <p>Cooling</p>
+            <img class="images" src="/assets/images/coolingBanner.jpg"/>
+            <div class="subcategories">
+                <a href="/electronics-spa/c/MDA21"><p>Refridgirators</p></a>
+                <a href="/electronics-spa/c/MDA27"><p>Freezers</p></a>
+                <a href="/electronics-spa/c/MDA22"><p>2 in 1</p></a>
+            </div>
+            <div class="bottom-header">
+                <p>Cooling</p>
+                <img class="gray" src="/assets/images/next3.png"/>
+                <img class="primary" src="/assets/images/next4.png"/>
+            </div>
         </div>
         <div class="floatLeft">
-            <img  src="/assets/images/laundryBanner.jpg"/>
-            <p>Dishwashers</p>
+            <img class="images" src="/assets/images/laundryBanner.jpg"/>
+            <div class="subcategories">
+                <a href="/electronics-spa/c/MDA50"><p>Dishwashers</p></a>
+            </div>
+            <div class="bottom-header">
+                <p>Dishwashers</p>
+                <img class="gray" src="/assets/images/next3.png"/>
+                <img class="primary" src="/assets/images/next4.png"/>
+            </div>
         </div>
         <div class="floatLeft">
-            <img  src="/assets/images/dishwashersBanner.jpg"/>
-            <p>Laundry</p>
+            <img class="images" src="/assets/images/dishwashersBanner.jpg"/>
+            <div class="subcategories">
+                <a href="/electronics-spa/c/MDA40"><p>Washing machines</p></a>
+                <a href="/electronics-spa/c/MDA43"><p>Drying machines</p></a>
+            </div>
+            <div class="bottom-header">
+                <p>Laundry</p>
+                <img class="gray" src="/assets/images/next3.png"/>
+                <img class="primary" src="/assets/images/next4.png"/>
+            </div>
         </div>
         <div *ngIf="divLast" class="floatLeft last">
-            <img  src="/assets/images/homeBanner.jpg"/>
-            <p>Home</p>
+            <img class="images" src="/assets/images/homeBanner.jpg"/>
+            <div class="subcategories">
+                <a href="/electronics-spa/c/AIR04"><p>Ventilation</p></a>
+                <a href="/electronics-spa/c/AIR01"><p>Water heaters</p></a>
+                <a href="/electronics-spa/c/SDA"><p>Home accesories</p></a>
+            </div>
+            <div class="bottom-header">
+                <p>Home</p>
+                <img class="gray" src="/assets/images/next3.png"/>
+                <img class="primary" src="/assets/images/next4.png"/>
+            </div>
         </div>
-        <div *ngIf="divFirst" class="icon" (click)="nextDivFunction()">></div>
+        <div *ngIf="divFirst" class="icon" (click)="nextDivFunction()">
+            <img  src="/assets/images/next1.png"/>
+        </div>
+        <div *ngIf="divLast" class="icon">
+            <img  src="/assets/images/next2.png"/>
+        </div>
     </div>
  </div>

@@ -8,7 +8,7 @@
 .container-left {
     display: flex;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 18%;
     .subscribe:hover {
         border-color: white;
         text-decoration: none;
@@ -87,6 +87,12 @@
 
 .paperplane-icon img {
     width: 45px;
+}
+
+@media only screen and (max-width: 1700px) {
+    .container-left {
+        margin-left: 10%;
+    }
 }
 
 @media only screen and (max-width: 1250px) {

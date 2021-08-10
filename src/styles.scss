@@ -94,6 +94,7 @@ cx-page-layout {
 
 // News Header
 .LandingPage2Template {
+   
     .Section1 {
         cx-paragraph {
             color: #566770;
@@ -132,6 +133,7 @@ cx-page-layout {
 
 // Podpisi Section2A
 .Section2A {
+    margin-bottom: 100px;
     cx-paragraph {
         padding-right: 50px;
         p {
@@ -160,6 +162,7 @@ cx-page-layout {
 
 // Podpisi Section2B
 .Section2B {
+    margin-bottom: 100px;
     cx-paragraph {
         margin-top: 0;
         padding-right: 50px;
@@ -189,3 +192,88 @@ cx-page-layout {
     }
 }
 
+// Footer touch up
+cx-footer-navigation {
+    nav {
+        margin-right: 7px !important;
+        margin-left: 7px !important;
+    }
+
+    h5 {
+        color: #9FACB2;
+        font-weight: 400 !important;
+        font-size: 75% !important;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #9FACB2;
+        padding-right: 125px !important;
+    }
+
+    .childs {
+        color: #DEE6E8;
+        font-weight: 600 !important;
+        a:hover {
+            text-decoration: none;
+            color: #DEE6E8;
+        }
+    }
+}
+
+// Malo več razmaka v Navigation - Homepage
+cx-category-navigation {
+    nav {
+        margin-right: 20px;
+    }
+}
+
+// Contact page
+.ContentPage1Template {
+    .Section2A {
+        clear: both;
+        cx-paragraph {
+            margin-bottom: 80px !important;
+            float: left;
+            width: 400px;
+            margin-right: 50px;
+
+            h1 {
+                font-size: 200%;
+                font-weight: 600;
+                color: #9FA7AA;
+                margin-bottom: 40px;
+            }
+
+            h2 {
+                font-size: 110%;
+                color: #566770;
+                text-transform: none;
+                margin-top: 40px;
+            }
+
+            h3 {
+                font-size: 105%;
+                color: #566770;
+                text-transform: none;
+                margin-top: 25px;
+                font-weight: 600 !important;
+            }
+
+            p {
+                font-size: 95%;
+                margin-bottom: 0 !important;
+                margin-top: 5px;
+                color: #566770;
+            }
+        }
+        @media only screen and (max-width: 420px) {
+            cx-paragraph {
+                width: 250px;
+                margin-right: 0;
+            }       
+        }
+        @media only screen and (max-width: 300px) {
+            cx-paragraph {
+                width: 150px;
+            }       
+        }
+    }
+}
