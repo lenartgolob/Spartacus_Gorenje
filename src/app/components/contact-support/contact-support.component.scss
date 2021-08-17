@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    clear: both;
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 600;
+    color: #9FA7AA;
+    margin-bottom: 75px;
+}
+
+.section {
+    width: 30%;
+}
+
+.box {
+    background-color: #F4F5F7;
+    padding: 10px;
+    height: 220px;
+    p {
+        font-size: 85%;
+        color: #566770;
+        margin-bottom: 12px;
+    }
+
+    .img-container {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin-bottom: 0;
+        }
+        margin-bottom: 12px;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .button {
+        background-color: #00B9AD;
+        text-align: center;
+        padding: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #00B9AD;
+
+        .green {
+            display: none;
+        }
+
+        p {
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 95%;
+            margin-bottom: 0;
+        }
+
+        img {
+            width: 15px;
+            height: 15px;
+        }
+
+        div {
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .center {
+        margin-top: 95px;
+    }
+
+    .right {
+        margin-top: 60px;
+    }
+
+    a:hover {
+        .button {
+            background-color: white;
+            border: 2px solid #00B9AD;
+        }
+
+        p {
+            color: #00B9AD;
+        }
+
+        .white {
+            display: none;
+        }
+
+        .green {
+            display: block;
+        }
+    }
+}
+
+.header {
+    font-size: 120%;
+    font-weight: 700;
+    color: #59686F;
+    margin-bottom: 15px;
+}
+
+.number {
+    font-size: 130% !important;
+    font-weight: 600;
+    color: #9FA7AA !important;
+}
+
+.email {
+    font-weight: 600;
+}
+
+.together {
+    margin-bottom: 0 !important; 
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        display: block;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .center {
+        margin-top: 135px !important;
+    }
+
+    .right {
+        margin-top: 100px !important;
+    }
+}

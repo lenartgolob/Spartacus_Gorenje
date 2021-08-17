@@ -6,6 +6,7 @@ import { StoreModule } from "@ngrx/store";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactInfoModule } from "./components/contact-info/contact-info.module";
+import { ContactSupportModule } from "./components/contact-support/contact-support.module";
 import { CookingCategoriesModule } from "./components/cooking-categories/cooking-categories.module";
 import { CoolingCategoriesModule } from "./components/cooling-categories/cooling-categories.module";
 import { DishwashersCategoriesModule } from "./components/dishwashers-categories/dishwashers-categories.module";
@@ -37,6 +38,7 @@ import { SpartacusModule } from './spartacus/spartacus.module';
     NewsHeaderModule,
     ProductsCategoriesCarouselModule,
     ContactInfoModule,
+    ContactSupportModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+$primary: #00B9AD !default;
+$dark-gray: #566770 !default;
+$light-gray: #9FA7AA !default;
 
 $styleVersion: 3.4;
 @import '~@spartacus/styles/index';
@@ -274,6 +277,151 @@ cx-category-navigation {
             cx-paragraph {
                 width: 150px;
             }       
+        }
+    }
+}
+
+cx-breadcrumb {
+    background-color: white !important;
+
+    h1 {
+        text-transform: uppercase;
+        color: #566770 !important;
+        font-weight: 700;
+        font-size: 220%;
+    }
+}
+
+// Content page carousel size
+.ContentPage1Template {
+    .carousel-panel {
+        max-height: 410px !important;
+    }
+}
+
+// Change styles for text on carousel
+.LandingPage2Template {
+    .BottomHeaderSlot {
+        .headline {
+            width: 310px;
+            font-size: 220%;
+            font-weight: 700;
+            position: absolute;
+            bottom: 250px;
+            left: 100px;
+            line-height: 26pt;
+            text-align: left;
+            background-color: rgba(0,0,0,0.7);
+            padding: 25px;
+            text-transform: uppercase;
+        }
+
+        .content {
+            position: absolute;
+            left: 100px;
+            bottom: 75px;
+            width: 310px;
+            height: 175px;
+            background-color: #00B9AC;
+            line-height: 26pt;
+            text-align: left;
+            font-size: 190%;
+            padding: 25px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            text-shadow: none;
+        }
+
+        .content:hover {
+            background-color: white;
+            color: #00B9AC;
+        }
+    }
+
+    // Change size of homepage carousel
+    .carousel-panel {
+        height: 900px !important;
+    }
+
+    cx-banner-carousel .inline-navigation .carousel-panel {
+        max-height: none !important;
+    }
+
+    @media only screen and (max-width: 1700px) {
+        .carousel-panel {
+            height: 800px !important;
+        }     
+    }
+
+    @media only screen and (max-width: 1500px) {
+        .carousel-panel {
+            height: 700px !important;
+        }     
+    }
+
+    @media only screen and (max-width: 1300px) {
+        .carousel-panel {
+            height: 100% !important;
+        }     
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .content {
+            display: none;
+        }     
+        .headline {
+            display: none;
+        }
+    }
+}
+
+
+.ContentPage1Template {
+    .BottomHeaderSlot {
+        .headline {
+            width: 310px;
+            font-size: 180%;
+            font-weight: 700;
+            position: absolute;
+            bottom: 125px;
+            left: 100px;
+            line-height: 26pt;
+            text-align: left;
+            background-color: rgba(0,0,0,0.7);
+            padding: 20px;
+            text-transform: uppercase;
+        }
+    
+        .content {
+            position: absolute;
+            left: 100px;
+            bottom: 25px;
+            width: 310px;
+            height: 100px;
+            background-color: #00B9AC;
+            line-height: 18pt;
+            text-align: left;
+            font-size: 110%;
+            padding: 20px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            text-shadow: none;
+        }
+
+        .content:hover {
+            background-color: white;
+            color: #00B9AC;
+        }
+
+        @media only screen and (max-width: 1100px) {
+            .content {
+                display: none;
+            }     
+            .headline {
+                display: none;
+            }
         }
     }
 }

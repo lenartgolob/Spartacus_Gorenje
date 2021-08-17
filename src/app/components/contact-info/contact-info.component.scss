@@ -60,3 +60,20 @@ h1 {
         margin-left: 5px;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .container {
+        display: block;
+    }
+    .right {
+        margin-left: 0;
+    }
+
+    .left {
+        margin-bottom: 25px;
+    }
+
+    .bottom-text {
+        width: 100% !important;
+    }
+}
