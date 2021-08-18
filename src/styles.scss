@@ -425,3 +425,51 @@ cx-breadcrumb {
         }
     }
 }
+
+// Dont display specs
+.ProductDetailsPageTemplate {
+    cx-tab-paragraph-container {
+        button:nth-of-type(2) {
+            display: none !important;
+        }
+    }
+}
+
+// Product page product details
+.ProductDetailsPageTemplate {
+    cx-product-details-tab {
+        .container {
+            h2 {
+                display: block;
+                font-size: 120%;
+                border-bottom: 1px $light-gray solid;
+                padding-bottom: 7px;
+                width: 50%;
+                color: $dark-gray;
+                clear: both;
+                margin-top: 40px;
+            }
+
+            h3 {
+                clear: both;
+                width: 18%;
+                float: left;
+                font-size: 85%;
+                color: $light-gray;
+                padding-right: 2%;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 85%;
+                color: $dark-gray;
+                font-weight: 600;
+                width: 50%;
+                margin-bottom: 20px;
+            }
+            h2:nth-child(1){
+                margin-top: 0 !important;
+            }
+        }
+    }
+}
