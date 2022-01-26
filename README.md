@@ -1,7 +1,8 @@
-# GorenjeSpaServer
+# Gorenje Spartacus clone
+As part of my internship with a company Gorenje, I was instructed to create a clone of the official [gorenje website](https://si.gorenje.com/), with a new technology - Spartacus.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
-
+## Spartacus clone
+https://user-images.githubusercontent.com/38143019/151173012-eb68e0b6-98b7-48ca-815f-16e734f06984.mp4
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -13,15 +14,3 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
